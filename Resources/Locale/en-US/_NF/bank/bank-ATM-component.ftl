@@ -1,6 +1,6 @@
 ## UI
-bank-atm-menu-title = NT Galactic Bank
-bank-atm-menu-balance-label = Account Balance:{" "}
+bank-atm-menu-title = NCWL State Bank
+bank-atm-menu-balance-label = Credit Balance:{" "}
 bank-atm-menu-no-bank = No Bank Account!
 bank-atm-menu-withdraw-button = Withdraw
 bank-atm-menu-deposit-label = Deposit Amount:{" "}
@@ -21,5 +21,5 @@ station-bank-supplies = Station Supplies
 station-bank-bounty = Bounty
 station-bank-other = Other
 station-bank-required = {"("}Required{")"}
-station-bank-requires-reason = NT Requires transaction details
+station-bank-requires-reason = NCWL Requires transaction details
 station-bank-unauthorized = Unauthorized!

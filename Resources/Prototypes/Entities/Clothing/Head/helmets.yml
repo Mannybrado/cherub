@@ -351,3 +351,22 @@
   - type: Construction
     graph: BoneHelmet
     node: helmet
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHelmetLeague
+  name: homeguard ballistic helmet
+  description: A kevlar helmet intended for wear by NCWL Homeguard forces. Comes with it's own goggles.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Helmets/leaguehelmet.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Helmets/leaguehelmet.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+

@@ -63,15 +63,18 @@ entities:
       data:
         tiles:
           0,0:
-            0: 2303
+            0: 2299
+            1: 4
           0,-1:
-            0: 65535
+            0: 65471
+            1: 64
           -1,-1:
             0: 65535
           -1,0:
             0: 255
           1,0:
-            0: 4095
+            0: 4031
+            1: 64
           2,0:
             0: 19
           0,-2:
@@ -102,6 +105,21 @@ entities:
           - 0
           - 0
           - 0
+        - volume: 2500
+          temperature: 293.14996
+          moles:
+          - 20.078888
+          - 75.53487
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
         chunkSize: 4
       type: GridAtmosphere
     - type: GasTileOverlay
@@ -116,8 +134,7 @@ entities:
       type: MetaData
     - parent: 410
       type: Transform
-    - toggled: True
-      container: 410
+    - container: 410
       type: InstantAction
 - proto: AirAlarm
   entities:
@@ -2059,48 +2076,69 @@ entities:
   entities:
   - uid: 347
     components:
-    - rot: -1.5707963267948966 rad
-      pos: 1.8356438,-2.3260827
-      parent: 1
+    - flags: InContainer
+      type: MetaData
+    - parent: 134
       type: Transform
+    - canCollide: False
+      type: Physics
+    - type: InsideEntityStorage
   - uid: 348
     components:
-    - rot: -1.5707963267948966 rad
-      pos: 1.7575188,-2.3260827
-      parent: 1
+    - flags: InContainer
+      type: MetaData
+    - parent: 134
       type: Transform
+    - canCollide: False
+      type: Physics
+    - type: InsideEntityStorage
 - proto: CartridgeRocketEmp
   entities:
   - uid: 342
     components:
-    - rot: -1.5707963267948966 rad
-      pos: 1.9293938,-2.3729577
-      parent: 1
+    - flags: InContainer
+      type: MetaData
+    - parent: 134
       type: Transform
+    - canCollide: False
+      type: Physics
+    - type: InsideEntityStorage
   - uid: 343
     components:
-    - rot: -1.5707963267948966 rad
-      pos: 1.8356438,-2.3885827
-      parent: 1
+    - flags: InContainer
+      type: MetaData
+    - parent: 134
       type: Transform
+    - canCollide: False
+      type: Physics
+    - type: InsideEntityStorage
   - uid: 344
     components:
-    - rot: -1.5707963267948966 rad
-      pos: 1.7106438,-2.3885827
-      parent: 1
+    - flags: InContainer
+      type: MetaData
+    - parent: 134
       type: Transform
+    - canCollide: False
+      type: Physics
+    - type: InsideEntityStorage
   - uid: 345
     components:
-    - rot: -1.5707963267948966 rad
-      pos: 1.9137688,-2.3885827
-      parent: 1
+    - flags: InContainer
+      type: MetaData
+    - parent: 134
       type: Transform
+    - canCollide: False
+      type: Physics
+    - type: InsideEntityStorage
   - uid: 346
     components:
-    - rot: -1.5707963267948966 rad
-      pos: 1.7731438,-2.3885827
-      parent: 1
+    - flags: InContainer
+      type: MetaData
+    - parent: 134
       type: Transform
+    - canCollide: False
+      type: Physics
+    - type: InsideEntityStorage
 - proto: Catwalk
   entities:
   - uid: 14
@@ -2227,15 +2265,33 @@ entities:
       pos: 7.5,1.5
       parent: 1
       type: Transform
+    - air:
+        volume: 200
+        immutable: False
+        temperature: 293.1496
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+      type: EntityStorage
     - containers:
         entity_storage: !type:Container
           showEnts: False
           occludes: True
           ents:
-          - 367
           - 366
-          - 365
+          - 367
           - 363
+          - 365
           - 364
       type: ContainerContainer
 - proto: ClothingBeltSecurity
@@ -2523,8 +2579,6 @@ entities:
     - pos: -5.4843693,-1.0942392
       parent: 1
       type: Transform
-    - heldPrefix: on
-      type: Item
     - enabled: True
       type: PointLight
     - toggleActionEntity: 411
@@ -2682,20 +2736,38 @@ entities:
     - pos: 2.5,-2.5
       parent: 1
       type: Transform
+    - air:
+        volume: 200
+        immutable: False
+        temperature: 293.1496
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+      type: EntityStorage
     - containers:
         entity_storage: !type:Container
           showEnts: False
           occludes: True
           ents:
-          - 207
-          - 171
-          - 135
-          - 243
-          - 274
-          - 305
-          - 336
-          - 337
-          - 338
+          - 347
+          - 341
+          - 344
+          - 340
+          - 348
+          - 343
+          - 345
+          - 342
+          - 346
         paper_label: !type:ContainerSlot
           showEnts: False
           occludes: True
@@ -2755,28 +2827,46 @@ entities:
     - pos: 2.5,0.5
       parent: 1
       type: Transform
+    - air:
+        volume: 200
+        immutable: False
+        temperature: 293.1496
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+      type: EntityStorage
     - containers:
         entity_storage: !type:Container
           showEnts: False
           occludes: True
           ents:
-          - 392
-          - 391
-          - 390
-          - 389
-          - 388
-          - 387
-          - 386
-          - 385
-          - 384
-          - 383
-          - 382
-          - 381
-          - 380
-          - 379
-          - 373
-          - 393
           - 394
+          - 393
+          - 373
+          - 379
+          - 380
+          - 381
+          - 382
+          - 383
+          - 384
+          - 385
+          - 386
+          - 387
+          - 388
+          - 389
+          - 390
+          - 391
+          - 392
         paper_label: !type:ContainerSlot
           showEnts: False
           occludes: True
@@ -2786,9 +2876,8 @@ entities:
   entities:
   - uid: 243
     components:
-    - flags: InContainer
-      type: MetaData
-    - parent: 134
+    - pos: 1.254347,-2.417963
+      parent: 1
       type: Transform
     - entities:
       - 244
@@ -2858,14 +2947,10 @@ entities:
           - 272
           - 273
       type: ContainerContainer
-    - canCollide: False
-      type: Physics
-    - type: InsideEntityStorage
   - uid: 274
     components:
-    - flags: InContainer
-      type: MetaData
-    - parent: 134
+    - pos: 1.363722,-2.511713
+      parent: 1
       type: Transform
     - entities:
       - 275
@@ -2935,14 +3020,10 @@ entities:
           - 303
           - 304
       type: ContainerContainer
-    - canCollide: False
-      type: Physics
-    - type: InsideEntityStorage
   - uid: 305
     components:
-    - flags: InContainer
-      type: MetaData
-    - parent: 134
+    - pos: 1.629347,-2.449213
+      parent: 1
       type: Transform
     - entities:
       - 306
@@ -3012,16 +3093,12 @@ entities:
           - 334
           - 335
       type: ContainerContainer
-    - canCollide: False
-      type: Physics
-    - type: InsideEntityStorage
 - proto: MagazinePistolSubMachineGunEmp
   entities:
   - uid: 135
     components:
-    - flags: InContainer
-      type: MetaData
-    - parent: 134
+    - pos: 1.613722,-2.417963
+      parent: 1
       type: Transform
     - entities:
       - 136
@@ -3101,14 +3178,10 @@ entities:
           - 169
           - 170
       type: ContainerContainer
-    - canCollide: False
-      type: Physics
-    - type: InsideEntityStorage
   - uid: 171
     components:
-    - flags: InContainer
-      type: MetaData
-    - parent: 134
+    - pos: 1.535597,-2.402338
+      parent: 1
       type: Transform
     - entities:
       - 172
@@ -3188,14 +3261,10 @@ entities:
           - 205
           - 206
       type: ContainerContainer
-    - canCollide: False
-      type: Physics
-    - type: InsideEntityStorage
   - uid: 207
     components:
-    - flags: InContainer
-      type: MetaData
-    - parent: 134
+    - pos: 1.426222,-2.402338
+      parent: 1
       type: Transform
     - entities:
       - 208
@@ -3275,9 +3344,6 @@ entities:
           - 241
           - 242
       type: ContainerContainer
-    - canCollide: False
-      type: Physics
-    - type: InsideEntityStorage
 - proto: PlastitaniumWindow
   entities:
   - uid: 3
@@ -3576,8 +3642,6 @@ entities:
       pos: 9.5,0.5
       parent: 1
       type: Transform
-    - enabled: False
-      type: Thruster
   - uid: 84
     components:
     - rot: 3.141592653589793 rad
@@ -3794,48 +3858,37 @@ entities:
   entities:
   - uid: 340
     components:
-    - pos: 1.4450188,-2.2635827
-      parent: 1
+    - flags: InContainer
+      type: MetaData
+    - parent: 134
       type: Transform
+    - canCollide: False
+      type: Physics
+    - type: InsideEntityStorage
   - uid: 341
     components:
-    - pos: 1.4137688,-2.5292077
-      parent: 1
+    - flags: InContainer
+      type: MetaData
+    - parent: 134
       type: Transform
+    - canCollide: False
+      type: Physics
+    - type: InsideEntityStorage
 - proto: WeaponSubMachineGunAtreides
   entities:
   - uid: 336
     components:
-    - flags: InContainer
-      type: MetaData
-    - parent: 134
+    - pos: 1.582472,-2.433588
+      parent: 1
       type: Transform
-    - canCollide: False
-      type: Physics
-    - type: InsideEntityStorage
   - uid: 337
     components:
-    - flags: InContainer
-      type: MetaData
-    - parent: 134
+    - pos: 1.441847,-2.386713
+      parent: 1
       type: Transform
-    - canCollide: False
-      type: Physics
-    - type: InsideEntityStorage
   - uid: 338
     components:
-    - flags: InContainer
-      type: MetaData
-    - parent: 134
-      type: Transform
-    - canCollide: False
-      type: Physics
-    - type: InsideEntityStorage
-- proto: WeaponTurretNanoTrasen
-  entities:
-  - uid: 74
-    components:
-    - pos: -0.5,-4.5
+    - pos: 1.488722,-2.449213
       parent: 1
       type: Transform
 - proto: Wrench

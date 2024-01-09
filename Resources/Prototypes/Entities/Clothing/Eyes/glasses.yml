@@ -204,3 +204,16 @@
   - type: Clothing
     sprite: Clothing/Eyes/Glasses/ninjavisor.rsi
   - type: FlashImmunity
+
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesVisorLeague
+  name: league combat goggles
+  description: An advanced visor with inbuilt targeting systems.
+  components:
+  - type: Sprite
+    sprite: Clothing/Eyes/Glasses/leaguegoggles.rsi
+  - type: Clothing
+    sprite: Clothing/Eyes/Glasses/leaguegoggles.rsi
+  - type: FlashImmunity
+  - type: ShowSecurityIcons

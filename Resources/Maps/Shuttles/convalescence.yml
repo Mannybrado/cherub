@@ -279,7 +279,7 @@ entities:
       pos: 1.5,3.5
       parent: 1
       type: Transform
-    - secondsUntilStateChange: -449.6337
+    - secondsUntilStateChange: -505.98492
       state: Opening
       type: Door
   - uid: 66
@@ -288,7 +288,7 @@ entities:
       pos: 3.5,3.5
       parent: 1
       type: Transform
-    - secondsUntilStateChange: -1837.6616
+    - secondsUntilStateChange: -1894.0128
       state: Opening
       type: Door
 - proto: AirTankFilled
@@ -347,6 +347,13 @@ entities:
   - uid: 519
     components:
     - pos: -0.5,-2.5
+      parent: 1
+      type: Transform
+- proto: BedsheetMedical
+  entities:
+  - uid: 521
+    components:
+    - pos: 4.5,2.5
       parent: 1
       type: Transform
 - proto: BenchSteelLeft
@@ -2114,6 +2121,16 @@ entities:
       type: Transform
     - canCollide: False
       type: Physics
+- proto: HospitalCurtains
+  entities:
+  - uid: 119
+    components:
+    - pos: 4.5,2.5
+      parent: 1
+      type: Transform
+    - secondsUntilStateChange: -34.119923
+      state: Opening
+      type: Door
 - proto: HyperlinkBookChemistry
   entities:
   - uid: 162
@@ -2262,6 +2279,13 @@ entities:
     components:
     - rot: 1.5707963267948966 rad
       pos: 7.20931,3.455443
+      parent: 1
+      type: Transform
+- proto: MedicalBed
+  entities:
+  - uid: 520
+    components:
+    - pos: 4.5,2.5
       parent: 1
       type: Transform
 - proto: MedicalScanner
@@ -2971,7 +2995,7 @@ entities:
       pos: 8.5,5.5
       parent: 1
       type: Transform
-    - nextDrop: 2263.5816204
+    - nextDrop: 2805.0462923
       type: DeadDrop
 - proto: PottedPlant29
   entities:
@@ -3352,13 +3376,6 @@ entities:
   - uid: 103
     components:
     - pos: 6.5,4.5
-      parent: 1
-      type: Transform
-- proto: StasisBed
-  entities:
-  - uid: 119
-    components:
-    - pos: 4.5,2.5
       parent: 1
       type: Transform
 - proto: SubstationBasic

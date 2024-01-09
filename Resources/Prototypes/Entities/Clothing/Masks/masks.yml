@@ -20,8 +20,8 @@
 - type: entity
   parent: ClothingMaskGas
   id: ClothingMaskGasSecurity
-  name: security gas mask
-  description: A standard issue Security gas mask.
+  name: combat rebreather
+  description: A standard rebreather made for combat occasions.
   components:
   - type: Sprite
     sprite: Clothing/Mask/gassecurity.rsi
@@ -519,3 +519,14 @@
   - type: EyeProtection
   - type: BreathMask
   - type: IdentityBlocker
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskLeagueBalaclava
+  name: combat balaclava
+  description: A durathread balaclava made for NCWL troops.
+  components:
+  - type: Sprite
+    sprite: Clothing/Mask/leaguebalaclava.rsi
+  - type: Clothing
+    sprite: Clothing/Mask/leaguebalaclava.rsi

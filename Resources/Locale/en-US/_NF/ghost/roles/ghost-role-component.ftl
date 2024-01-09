@@ -6,7 +6,7 @@ ghost-role-information-clippy-name = Clippy
 ghost-role-information-clippy-description = The Station Representative loyal worker, smells like cardboard and papers.
 
 ghost-role-information-clarpy-name = Clarpy
-ghost-role-information-clarpy-description = Avast ye mail! wanted by Nanotrasen for crimes against mice.
+ghost-role-information-clarpy-description = Avast ye mail! wanted by NCWL for crimes against mice.
 
 ghost-role-information-crispy-name = Crispy
 ghost-role-information-crispy-description = Mistakes were made.
