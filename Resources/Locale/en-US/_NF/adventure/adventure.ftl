@@ -5,8 +5,10 @@ adventure-mode-profit-text = made a total profit of: {" "}
 adventure-mode-loss-text = lost a total of: {" "}
 adventure-list-high = Today's Top Earners:
 adventure-list-low = Today's Biggest Spenders:
+
 adventure-title = New Crescent Adventure Mode
 adventure-description = Try to survive in a post-war world. Be a lawman, a pirate, miner, or corporate drone.
+
 currency = Credits
 
 guide-entry-adventure = New Frontiers Program
