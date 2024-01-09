@@ -806,3 +806,48 @@
     - ClothMade
     - WhitelistChameleon
     - HamsterWearable
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadLeagueBeret
+  name: homeguard officer beret
+  description: An officer's beret in League colors, embroidered with an officer's sigil in gold thread.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/leagueberet.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/leagueberet.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadLeagueCommissarHat
+  name: commissar's peaked cap
+  description: An officer's cap in League colors, embroidered with the Commissar's sigil in gold thread.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/leaguepeakedcap.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/leaguepeakedcap.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadLeagueCommsofficer
+  name: communications officer's beret
+  description: The beret of the NCWL communications officer, made from white satin and embroidered with gold thread.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/leaguecommsofficer.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/leaguecommsofficer.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon

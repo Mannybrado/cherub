@@ -107,3 +107,14 @@
     sprite: Clothing/Shoes/Boots/winterboots.rsi
   - type: TemperatureProtection
     coefficient: 0.05
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesBootsCowboyFancy
+  name: fancy white frontier boots
+  description: Tall, polished white leather frontier boots.
+  components:
+  - type: Sprite
+    sprite: Clothing/Shoes/Boots/fancycowboy.rsi
+  - type: Clothing
+    sprite: Clothing/Shoes/Boots/fancycowboy.rsi

@@ -55,7 +55,7 @@
     - WeaponLongarms # Frontier
 
 - type: entity
-  name: AKMS
+  name: NCWL Kalashnikova
   parent: BaseWeaponRifle
   id: WeaponRifleAk
   description: An iconic weapon of war. Uses .30 rifle ammo.
@@ -103,7 +103,7 @@
   - type: Appearance
 
 - type: entity
-  name: M-90gl
+  name: NT M-90gl
   parent: BaseWeaponRifle
   id: WeaponRifleM90GrenadeLauncher
   description: An older bullpup carbine model, with an attached underbarrel grenade launcher. Uses .20 rifle ammo.
@@ -146,7 +146,7 @@
   - type: Appearance
 
 - type: entity
-  name: Lecter
+  name: SHI Lecter
   parent: BaseWeaponRifle
   id: WeaponRifleLecter
   description: A high end military grade assault rifle. Uses .20 rifle ammo.

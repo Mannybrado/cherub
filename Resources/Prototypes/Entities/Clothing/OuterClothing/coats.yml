@@ -355,3 +355,24 @@
     sprite: Clothing/OuterClothing/Coats/space_asshole.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Coats/space_asshole.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCoatLeagueCommsofficer
+  name: communication officer's formal coat
+  description: An NCWL communication officer's formal military coat, bedecked in medals and League livery.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Coats/leaguecommsofficer.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Coats/leaguecommsofficer.rsi
+  - type: StorageFill
+    contents:
+    - id: SmokingPipeFilledTobacco
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.80
+        Slash: 0.80
+        Piercing: 0.80
+        Heat: 0.80

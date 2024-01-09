@@ -48,11 +48,11 @@
     - WeaponLongarms # Frontier
 
 - type: entity
-  name: Bulldog
+  name: NCWL Bulldog
   # Don't parent to BaseWeaponShotgun because it differs significantly
   parent: BaseItem
   id: WeaponShotgunBulldog
-  description: It's a magazine-fed shotgun designed for close quarters combat. Uses .50 shotgun shells.
+  description: A drum magazine-fed semi-automatic shotgun developed by your communist overlords. Uses .50 shells.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/bulldog.rsi
@@ -137,10 +137,10 @@
     proto: ShellShotgunBeanbag
 
 - type: entity
-  name: Enforcer
+  name: Enforcer Mk I
   parent: BaseWeaponShotgun
   id: WeaponShotgunEnforcer
-  description: A next-generation Frozen Star shotgun. Uses .50 shotgun shells.
+  description: A next-generation Imperial shotgun. Uses .50 shotgun shells.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/enforcer.rsi
@@ -149,10 +149,10 @@
   - type: BallisticAmmoProvider
   
 - type: entity
-  name: Enforcer
+  name: Enforcer Mk I
   parent: BaseWeaponShotgun
   id: WeaponShotgunEnforcerRubber
-  description: A next-generation Frozen Star shotgun. Uses .50 shotgun shells.
+  description: A next-generation Imperial shotgun. Uses .50 shotgun shells.
   suffix: Non-Lethal
   components:
   - type: Sprite
@@ -163,10 +163,10 @@
     proto: ShellShotgunBeanbag
   
 - type: entity
-  name: Kammerer
+  name: SHI Kammerer
   parent: BaseWeaponShotgun
   id: WeaponShotgunKammerer
-  description: When an old Remington design meets modern materials, this is the result. A favourite weapon of militia forces throughout many worlds. Uses .50 shotgun shells.
+  description: A tried and tested Terran design immortalized by Shinohara Heavy Industries. This trench gun shoots .50 shells and holds four shells in the feeding chamber.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/pump.rsi
