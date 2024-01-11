@@ -40,7 +40,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitAdmiralSecretarySuit
-  name: general secretary's suit
+  name: formal shirt and slacks
   description: A formal shirt and slacks for the station's most important person.
   components:
   - type: Sprite

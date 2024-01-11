@@ -61,3 +61,23 @@
     sprite: _NF/Clothing/OuterClothing/Misc/shinohara_haori.rsi
   - type: Clothing
     sprite: _NF/Clothing/OuterClothing/Misc/shinohara_haori.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCoatLeagueMedic
+  name: union paramedic's armored jacket
+  description: A unionist paramedic's armored jacket. Has inner pockets for medicine.
+  components:
+  - type: Sprite
+    sprite: _NF/Clothing/OuterClothing/Misc/league_paramedic.rsi
+  - type: Clothing
+    sprite: _NF/Clothing/OuterClothing/Misc/league_paramedic.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.7
+        Heat: 0.9
+  - type: ExplosionResistance
+    damageCoefficient: 0.80

@@ -285,3 +285,43 @@
   - type: Construction
     graph: BoneArmor
     node: armor
+
+- type: entity
+  parent: ClothingOuterArmorBasic
+  id: ClothingOuterArmorLeagueVest
+  name: NCWL bulletproof vest
+  description: A Type III bulletproof vest with the NCWL logo emblazoned on the breast. Perfect for putting down reactionary uprisings.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Armor/armor_league.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Armor/armor_league.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.4
+        Heat: 0.9
+  - type: ExplosionResistance
+    damageCoefficient: 0.80
+
+- type: entity
+  parent: ClothingOuterArmorBasic
+  id: ClothingOuterArmorRoumaine
+  name: acolyte robe
+  description: A durathread St. Romaine's acolyte robe.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Armor/armor_roumaine.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Armor/armor_roumaine.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.8
+        Heat: 0.9
+  - type: ExplosionResistance
+    damageCoefficient: 0.80

@@ -37,3 +37,13 @@
   - type: Clothing
     sprite: _NF/Clothing/Uniforms/Jumpskirt/mercenary.rsi
 
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitAdmiralSecretarySkirt
+  name: formal shirt and skirt
+  description: A formal shirt and skirt for the station's most important person.
+  components:
+  - type: Sprite
+    sprite: _NF/Clothing/Uniforms/Jumpskirt/secretary-jumpskirt.rsi
+  - type: Clothing
+    sprite: _NF/Clothing/Uniforms/Jumpskirt/secretary-jumpskirt.rsi
