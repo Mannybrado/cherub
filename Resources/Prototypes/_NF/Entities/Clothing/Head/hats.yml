@@ -108,3 +108,31 @@
   - type: Tag
     tags:
     - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatHatRoumaine
+  name: acolyte's hat
+  description: Shades your head, ensteels your faith.
+  components:
+  - type: Sprite
+    sprite: _NF/Clothing/Head/Hats/roumaine_hat.rsi
+  - type: Clothing
+    sprite: _NF/Clothing/Head/Hats/roumaine_hat.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatLeagueMedical
+  name: NCWL medic's hat
+  description: Shades your weary head. And lets people know you're first aid qualified!
+  components:
+  - type: Sprite
+    sprite: _NF/Clothing/Head/Hats/league_paramedic.rsi
+  - type: Clothing
+    sprite: _NF/Clothing/Head/Hats/league_paramedic.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon

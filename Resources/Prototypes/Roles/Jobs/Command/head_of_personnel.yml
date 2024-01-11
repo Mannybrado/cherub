@@ -58,17 +58,15 @@
 - type: startingGear
   id: HoPGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitHoP
-    back: ClothingBackpackHOPFilled
-    shoes: ClothingShoesColorBrown
-    head: ClothingHeadHatHopcap
+    jumpsuit: ClothingUniformJumpsuitAdmiralSecretarySuit
+    back: ClothingBackpackFilled
+    shoes: ClothingShoesBootsJack
+    gloves: ClothingHandsGlovesCommieAdmiral
+    head: ClothingHeadleaguecap
     id: HoPPDA
     ears: ClothingHeadsetAltCentCom
-    eyes: ClothingEyesGlassesSunglasses
-    belt: BoxFolderQmClipboard # Frontier
-    neck: ClothingNeckCloakHop # Frontier
-    outerClothing: ClothingOuterArmorSRCarapace # Frontier
-    pocket1: WeaponDisabler # Frontier
-  innerClothingSkirt: ClothingUniformJumpskirtHoP
-  satchel: ClothingBackpackSatchelHOPFilled
-  duffelbag: ClothingBackpackDuffelHOPFilled
+    belt: WeaponRevolverDeckard
+    outerClothing: ClothingOuterArmorAdmiralSecretaryCarapace
+  innerClothingSkirt: ClothingUniformJumpsuitAdmiralSecretarySkirt
+  satchel: ClothingBackpackSatchelFilled
+  duffelbag: ClothingBackpackDuffelFilled
