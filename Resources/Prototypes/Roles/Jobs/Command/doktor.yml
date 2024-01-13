@@ -1,0 +1,35 @@
+- type: job
+  id: Doktor
+  name: job-name-homeguard-medic
+  description: job-description-doktor
+  playTimeTracker: JobDoktor
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 1600
+  startingGear: DoktorGear
+  icon: "JobIconDoktor"
+  supervisors: job-supervisors-hop
+  canBeAntag: false
+  access:
+  - Command
+  - Maintenance
+  - Service
+  - External
+  - Mercenary # Frontier
+  - Captain # Frontier
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant, TrackingImplant ]
+
+- type: startingGear
+  id: DoktorGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitHomeguardTurtleneckMedic
+    back: ClothingBackpackERTLeaderFilled
+    shoes: ClothingShoesBootsJack
+    head: ClothingHeadHatLeagueMedical
+    outerClothing:  ClothingOuterCoatLeagueMedic
+    id: NCWLMediCPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: ClothingBeltParamedicFilled
+    gloves: ClothingHandsGlovesFingerless

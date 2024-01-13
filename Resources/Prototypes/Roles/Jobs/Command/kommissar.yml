@@ -1,0 +1,40 @@
+- type: job
+  id: Kommissar
+  name: job-name-homeguard-leader
+  description: job-description-kommissar
+  playTimeTracker: JobKommissar
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 21600
+  startingGear: KommissarGear
+  icon: "JobIconCommissar"
+  supervisors: job-supervisors-hop
+  canBeAntag: false
+  access:
+  - Security
+  - Brig
+  - Command
+  - Service
+  - HeadOfPersonnel
+  - Maintenance
+  - Service
+  - External
+  - Mercenary # Frontier
+  - Captain # Frontier
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant, TrackingImplant ]
+
+- type: startingGear
+  id: KommissarGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitHomeguardTurtleneckBlack
+    back: ClothingBackpackERTLeaderFilled
+    shoes: ClothingShoesBootsJack
+    mask: ClothingMaskLeagueBalaclava
+    head: ClothingHeadLeagueCommissarHat
+    outerClothing: ClothingOuterArmorLeagueCarapace
+    id: ERTLeaderPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: WeaponPistolCobra
+    gloves: ClothingHandsGlovesCombat # Frontier

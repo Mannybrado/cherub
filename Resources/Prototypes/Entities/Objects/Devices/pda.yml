@@ -115,7 +115,7 @@
 - type: entity
   parent: BasePDA
   id: PassengerPDA
-  name: passenger PDA
+  name: civilian PDA
   description: Why isn't it gray?
   components:
   - type: Pda
@@ -438,14 +438,14 @@
 - type: entity
   parent: BasePDA
   id: HoPPDA
-  name: station representative PDA
+  name: general secretary's PDA
   description: Looks like it's been chewed on.
   components:
   - type: Pda
     id: HoPIDCard
     state: pda-hop
     penSlot:
-      startingItem: PenHop
+      startingItem: Pen
       priority: -1
       whitelist:
         tags:
@@ -753,8 +753,8 @@
 - type: entity
   parent: BasePDA
   id: ERTLeaderPDA
-  name: ERT PDA
-  description: Red for firepower.
+  name: Kommissar's PDA
+  description: Brown for communist.
   components:
   - type: Pda
     id: ERTLeaderIDCard
@@ -765,6 +765,38 @@
     accentVColor: "#447987"
   - type: Icon
     state: pda-ert
+
+- type: entity
+  parent: BasePDA
+  id: NCWLPDA
+  name: NCWL PDA
+  description: Brown for communist.
+  components:
+  - type: Pda
+    id: ERTLeaderIDCard
+    state: pda-militiaman
+  - type: PdaBorderColor
+    borderColor: "#A32D26"
+    accentHColor: "#447987"
+    accentVColor: "#447987"
+  - type: Icon
+    state: pda-militiaman
+
+- type: entity
+  parent: BasePDA
+  id: NCWLMediCPDA
+  name: Doktor's PDA
+  description: Brown for communist.
+  components:
+  - type: Pda
+    id: ERTLeaderIDCard
+    state: pda-militiaman
+  - type: PdaBorderColor
+    borderColor: "#A32D26"
+    accentHColor: "#447987"
+    accentVColor: "#447987"
+  - type: Icon
+    state: pda-militiaman
 
 - type: entity
   parent: ERTLeaderPDA

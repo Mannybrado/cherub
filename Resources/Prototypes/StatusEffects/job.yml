@@ -76,6 +76,27 @@
 
 - type: statusIcon
   parent: JobIcon
+  id: JobIconCommissar
+  icon:
+    sprite: Interface/Misc/job_icons.rsi
+    state: Commissar
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconDoktor
+  icon:
+    sprite: Interface/Misc/job_icons.rsi
+    state: Doktor
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconSanitar
+  icon:
+    sprite: Interface/Misc/job_icons.rsi
+    state: Sanitar
+
+- type: statusIcon
+  parent: JobIcon
   id: JobIconStationEngineer
   icon:
     sprite: Interface/Misc/job_icons.rsi
