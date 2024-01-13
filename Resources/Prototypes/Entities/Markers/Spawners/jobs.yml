@@ -311,6 +311,30 @@
       - state: captain
 
 - type: entity
+  id: SpawnPointKommissar
+  parent: SpawnPointJobBase
+  name: kommissar
+  components:
+  - type: SpawnPoint
+    job_id: Kommissar
+  - type: Sprite
+    layers:
+      - state: green
+      - state: kommissar
+
+- type: entity
+  id: SpawnPointSanitar
+  parent: SpawnPointJobBase
+  name: sanitar
+  components:
+  - type: SpawnPoint
+    job_id: Militiaman
+  - type: Sprite
+    layers:
+      - state: green
+      - state: sanitar
+
+- type: entity
   id: SpawnPointHeadOfPersonnel
   parent: SpawnPointJobBase
   name: headofpersonnel

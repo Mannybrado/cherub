@@ -39,7 +39,7 @@ job-name-chef = Chef
 job-name-clown = Clown
 job-name-ertleader = Homeguard Kommissar
 job-name-ertengineer = Homeguard Combat Engineer
-job-name-ertsecurity = Homeguard Officer
+job-name-ertsecurity = Sanitar
 job-name-ertmedic = Homeguard Combat Medic
 job-name-ertjanitor = ERT Janitor
 job-name-boxer = Boxer
@@ -48,6 +48,9 @@ job-name-senior-engineer = Senior Engineer
 job-name-senior-researcher = Senior Researcher
 job-name-senior-physician = Senior Physician
 job-name-senior-officer = Sergeant
+job-name-homeguard-leader = Kommissar
+job-name-homeguard-soldier = Sanitar
+job-name-homeguard-medic = Doktor
 
 # Role timers - Make these alphabetical or I cut you
 JobAtmosphericTechnician = Atmospheric Technician
@@ -100,3 +103,6 @@ JobStationEngineer = Station Engineer
 JobTechnicalAssistant = Technical Assistant
 JobWarden = Bailiff
 JobZookeeper = Zookeeper
+JobKommissar = Kommissar
+JobSanitar = Sanitar
+JobHomeguardMedic = Doktor

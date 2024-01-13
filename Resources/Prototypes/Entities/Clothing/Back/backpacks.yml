@@ -190,8 +190,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackERTLeader
-  name: ERT leader backpack
-  description: A spacious backpack with lots of pockets, worn by the Commander of an Emergency Response Team.
+  name: NCWL military backpack
+  description: A spacious backpack with lots of pockets, worn by NCWL troopers.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/ertleader.rsi

@@ -24,6 +24,9 @@
             "name": "Boxer"
         },
         {
+            "name": "Sanitar"
+        },
+        {
             "name": "AtmosphericTechnician"
         },
         {
@@ -34,6 +37,12 @@
         },
         {
             "name": "Janitor"
+        },
+        {
+            "name": "Doktor"
+        },
+        {
+            "name": "CommunicationsOfficer"
         },
         {
             "name": "Chemist"
@@ -91,6 +100,9 @@
         },
         {
             "name": "ShaftMiner"
+        },
+        {
+            "name": "Commissar"
         },
         {
             "name": "Passenger"

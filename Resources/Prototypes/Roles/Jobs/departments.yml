@@ -42,13 +42,10 @@
   description: department-Command-description
   color: "#334E6D"
   roles:
-  - Captain
-  - CentralCommandOfficial
-  - ChiefEngineer
-  - ChiefMedicalOfficer
   - HeadOfPersonnel
-  - ResearchDirector
-  - Quartermaster
+  - Kommissar
+  - Militiaman
+  - Doktor
 
 - type: department
   id: Engineering

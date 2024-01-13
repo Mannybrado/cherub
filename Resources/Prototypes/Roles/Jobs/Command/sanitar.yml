@@ -1,0 +1,36 @@
+- type: job
+  id: Militiaman
+  name: job-name-homeguard-soldier
+  description: job-description-sanitar
+  playTimeTracker: JobSanitar
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 1600
+  startingGear: SanitarGear
+  icon: "JobIconSanitar"
+  supervisors: job-supervisors-hop
+  canBeAntag: false
+  access:
+  - Command
+  - Maintenance
+  - Service
+  - External
+  - Mercenary # Frontier
+  - Captain # Frontier
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant, TrackingImplant ]
+
+- type: startingGear
+  id: SanitarGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitHomeguardTurtleneck
+    back: ClothingBackpackERTLeaderFilled
+    shoes: ClothingShoesBootsJack
+    mask: ClothingMaskLeagueBalaclava
+    head: ClothingHeadHelmetLeague
+    outerClothing: ClothingOuterArmorBasic
+    id: NCWLPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: WeaponPistolCobra
+    gloves: ClothingHandsGlovesCombat # Frontier
