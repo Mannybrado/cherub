@@ -99,3 +99,35 @@
   icon: { sprite: Objects/Materials/materials.rsi, state: bones }
   color: "#896f5e"
   price: 0
+
+- type: material
+  id: ScrapPlasma
+  stackEntity: ScrapPlasma1
+  name: materials-scrapplasma
+  icon: { sprite: Objects/Materials/materials.rsi, state: scrapplasma }
+  color: "#7e009e"
+  price: 0.18
+
+- type: material
+  id: ScrapElectronics
+  stackEntity: ScrapElectronics1
+  name: materials-scrapelectronics
+  icon: { sprite: Objects/Materials/materials.rsi, state: scrapelectronics }
+  color: "#adff2f"
+  price: 0.15
+
+- type: material
+  id: ScrapComponents
+  stackEntity: ScrapComponents1
+  name: materials-scrapcomponents
+  icon: { sprite: Objects/Materials/materials.rsi, state: scrapcomponents }
+  color: "#896f5e"
+  price: 0.12
+
+- type: material
+  id: ScrapUranium
+  stackEntity: ScrapUranium1
+  name: materials-scrapuranium
+  icon: { sprite: Objects/Materials/materials.rsi, state: scrapuranium }
+  color: "#896f5e"
+  price: 0.14

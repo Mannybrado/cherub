@@ -273,3 +273,14 @@
     sprite: Clothing/Back/Backpacks/cluwne.rsi
   - type: Unremoveable
     deleteOnDrop: false
+
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpackNCWL
+  name: rugged backpack
+  description: A spacious backpack with lots of pockets, worn by the Homeguard.
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Backpacks/ncwl.rsi
+  - type: Storage
+    capacity: 150

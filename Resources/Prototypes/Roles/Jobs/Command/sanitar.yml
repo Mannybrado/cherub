@@ -25,12 +25,14 @@
   id: SanitarGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitHomeguardTurtleneck
-    back: ClothingBackpackERTLeaderFilled
+    back: ClothingBackpackNCWLFilled
     shoes: ClothingShoesBootsJack
     mask: ClothingMaskLeagueBalaclava
     head: ClothingHeadHelmetLeague
-    outerClothing: ClothingOuterArmorBasic
+    outerClothing: ClothingOuterArmorLeagueVest
     id: NCWLPDA
     ears: ClothingHeadsetAltCentCom
     belt: WeaponPistolCobra
     gloves: ClothingHandsGlovesCombat # Frontier
+  duffelbag: ClothingBackpackDuffelNCWLFilled
+  satchel: ClothingBackpackSatchelNCWLFilled

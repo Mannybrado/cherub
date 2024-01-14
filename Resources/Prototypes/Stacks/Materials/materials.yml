@@ -85,3 +85,35 @@
   spawn: MaterialBones1
   maxCount: 30
   itemSize: 1
+
+- type: stack
+  id: ScrapPlasma
+  name: scrap plasma fuel
+  icon: { sprite: /Textures/Objects/Materials/materials.rsi, state: scrapplasma}
+  spawn: ScrapPlasma1
+  maxCount: 30
+  itemSize: 1
+
+- type: stack
+  id: ScrapElectronics
+  name: scrap electronics
+  icon: { sprite: /Textures/Objects/Materials/materials.rsi, state: scrapelectronics}
+  spawn: ScrapElectronics1
+  maxCount: 15
+  itemSize: 1
+
+- type: stack
+  id: ScrapComponents
+  name: wrecked fuel port
+  icon: { sprite: /Textures/Objects/Materials/materials.rsi, state: scrapcomponents}
+  spawn: ScrapComponents
+  maxCount: 20
+  itemSize: 1
+
+- type: stack
+  id: ScrapUranium
+  name: depleted uranium
+  icon: { sprite: /Textures/Objects/Materials/materials.rsi, state: scrapuranium}
+  spawn: ScrapComponents
+  maxCount: 25
+  itemSize: 1

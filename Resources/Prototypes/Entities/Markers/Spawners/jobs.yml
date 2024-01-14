@@ -320,7 +320,7 @@
   - type: Sprite
     layers:
       - state: green
-      - state: kommissar
+      - state: captain
 
 - type: entity
   id: SpawnPointSanitar
@@ -332,7 +332,31 @@
   - type: Sprite
     layers:
       - state: green
-      - state: sanitar
+      - state: captain
+
+- type: entity
+  id: SpawnPointArtificer
+  parent: SpawnPointJobBase
+  name: artificer
+  components:
+  - type: SpawnPoint
+    job_id: Artificer
+  - type: Sprite
+    layers:
+      - state: green
+      - state: captain
+
+- type: entity
+  id: SpawnPointCommsOfficer
+  parent: SpawnPointJobBase
+  name: commsofficer
+  components:
+  - type: SpawnPoint
+    job_id: CommsOfficer
+  - type: Sprite
+    layers:
+      - state: green
+      - state: captain
 
 - type: entity
   id: SpawnPointHeadOfPersonnel

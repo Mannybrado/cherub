@@ -29,12 +29,15 @@
   id: KommissarGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitHomeguardTurtleneckBlack
-    back: ClothingBackpackERTLeaderFilled
+    back: ClothingBackpackNCWLFilled
     shoes: ClothingShoesBootsJack
     mask: ClothingMaskLeagueBalaclava
     head: ClothingHeadLeagueCommissarHat
     outerClothing: ClothingOuterArmorLeagueCarapace
     id: ERTLeaderPDA
+    eyes: ClothingEyesVisorLeague
     ears: ClothingHeadsetAltCentCom
-    belt: WeaponPistolCobra
-    gloves: ClothingHandsGlovesCombat # Frontier
+    belt: WeaponRevolverMateba
+    gloves: ClothingHandsGlovesFingerless # Frontier
+  duffelbag: ClothingBackpackDuffelNCWLFilled
+  satchel: ClothingBackpackSatchelNCWLFilled

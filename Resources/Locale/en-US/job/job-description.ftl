@@ -51,3 +51,5 @@ job-description-senior-officer = Teach new Minutemen the basics of searches, per
 job-description-kommissar = Protect the Station and interests of the State. Enforce the will of the Head of State. Look cool in your trenchcoat.
 job-description-sanitar = Protect the Station and interests of the State. Enforce the will of the Head of State.
 job-description-doktor = Keep your comrades alive. Enforce the will of the Head of State.
+job-description-artificer = Maintain the vessels and outposts of the State.
+job-description-homeguard-comms = Assist the General Secretaries in their duties. Direct the flow of paperwork through the office. Fulfill logistical requests.

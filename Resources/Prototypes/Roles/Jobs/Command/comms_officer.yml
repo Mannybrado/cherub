@@ -1,0 +1,71 @@
+- type: job
+  id: CommsOfficer
+  name: job-name-homeguard-comms
+  description: job-description-homeguard-comms
+  playTimeTracker: JobCommsOfficer
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 16000 # Frontier
+  weight: 20
+  startingGear: CommsOfficerGear
+  icon: "JobIconCommsOfficer"
+  requireAdminNotify: true
+  supervisors: job-supervisors-centcom # Frontier
+  canBeAntag: false
+  access:
+  - Command
+  - HeadOfPersonnel
+  - Bar
+  - Service
+  - Frontier
+  - Maintenance
+  - Janitor
+  - Theatre
+  - Kitchen
+  - Chapel
+  - Hydroponics
+  - External
+  # I mean they'll give themselves the rest of the access levels *anyways*.
+  # As of 15/03/23 they can't do that so here's MOST of the rest of the access levels.
+  # Head level access that isn't their own was deliberately left out, get AA from the captain instead.
+  - Chemistry # Frontier
+  - Engineering # Frontier
+  - Quartermaster # Frontier
+  - Research # Frontier
+  - Detective # Frontier
+  - Salvage # Frontier
+  - Security # Frontier
+  - Brig # Frontier
+  - Cargo # Frontier
+  - Atmospherics # Frontier
+  - Medical # Frontier
+  - EmergencyShuttleRepealAll # Frontier
+  - Captain # Frontier
+  - ChiefEngineer # Frontier
+  - ChiefMedicalOfficer # Frontier
+#  - HeadOfSecurity # Frontier - Whitelist for sheriff only.
+  - ResearchDirector # Frontier
+  - Armory # Frontier
+  - Mercenary # Frontier
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant, TrackingImplant ] # Frontier - Added TrackingImplant
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
+
+- type: startingGear
+  id: CommsOfficerGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitAdmiralSecretarySuit
+    back: ClothingBackpackFilled
+    shoes: ClothingShoesBootsCowboyFancy
+    gloves: ClothingHandsGlovesCommieAdmiral
+    head: ClothingHeadLeagueCommsofficer
+    id: NCWLCommsOfficerPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: WeaponRevolverPython
+    outerClothing: ClothingOuterCoatLeagueCommsofficer
+  innerClothingSkirt: ClothingUniformJumpsuitAdmiralSecretarySkirt
+  satchel: ClothingBackpackSatchelFilled
+  duffelbag: ClothingBackpackDuffelFilled

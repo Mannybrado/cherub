@@ -360,7 +360,7 @@
 - type: entity
   parent: IDCardStandard
   id: HoPIDCard
-  name: station representative ID card
+  name: NCWL ID card
   components:
   - type: Sprite
     layers:
@@ -370,6 +370,76 @@
     heldPrefix: silver
   - type: PresetIdCard
     job: HeadOfPersonnel
+
+- type: entity
+  parent: IDCardStandard
+  id: KommissarIDCard
+  name: Komissar's ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: silver
+    - state: idcentcom
+  - type: Item
+    heldPrefix: silver
+  - type: PresetIdCard
+    job: Kommissar
+
+- type: entity
+  parent: IDCardStandard
+  id: SanitarIDCard
+  name: sanitar's ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: silver
+    - state: idcentcom
+  - type: Item
+    heldPrefix: silver
+  - type: PresetIdCard
+    job: Militiaman
+
+- type: entity
+  parent: IDCardStandard
+  id: DoktorIDCard
+  name: doktor's ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: silver
+    - state: idcentcom
+  - type: Item
+    heldPrefix: silver
+  - type: PresetIdCard
+    job: Doktor
+
+- type: entity
+  parent: IDCardStandard
+  id: ArtificerIDCard
+  name: artificer's ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: silver
+    - state: idcentcom
+  - type: Item
+    heldPrefix: silver
+  - type: PresetIdCard
+    job: Artificer
+
+- type: entity
+  parent: IDCardStandard
+  id: CommsOfficerIDCard
+  name: communications officer's ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: silver
+    - state: idcentcom
+  - type: Item
+    heldPrefix: silver
+  - type: PresetIdCard
+    job: CommsOfficer
 
 - type: entity
   parent: IDCardStandard

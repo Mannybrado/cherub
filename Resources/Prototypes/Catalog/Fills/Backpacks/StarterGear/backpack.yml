@@ -383,3 +383,43 @@
     contents:
       - id: BoxSurvivalBrigmedic
       - id: Flash
+
+- type: entity
+  noSpawn: true
+  parent: ClothingBackpackNCWL
+  id: ClothingBackpackNCWLFilled
+  components:
+    - type: StorageFill
+      contents:
+        - id: BoxSurvival
+        - id: BoxZiptie
+        - id: MagazinePistol
+
+
+- type: entity
+  noSpawn: true
+  parent: ClothingBackpackNCWL
+  id: ClothingBackpackNCWLDoktorFilled
+  components:
+    - type: StorageFill
+      contents:
+        - id: BoxSurvival
+        - id: BoxZiptie
+        - id: MagazinePistol
+        - id: Hypospray
+        - id: MedkitAdvancedFilled
+
+- type: entity
+  noSpawn: true
+  parent: ClothingBackpackNCWL
+  id: ClothingBackpackNCWLArtificerFilled
+  components:
+    - type: StorageFill
+      contents:
+        - id: BoxSurvivalEngineering
+        - id: CableMVStack
+        - id: CableHVStack
+        - id: CableApcStack
+        - id: SheetPlasteel
+        - id: SheetSteel
+        - id: SheetGlass

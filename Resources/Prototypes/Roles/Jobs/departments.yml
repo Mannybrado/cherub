@@ -46,6 +46,8 @@
   - Kommissar
   - Militiaman
   - Doktor
+  - Artificer
+  - CommsOfficer
 
 - type: department
   id: Engineering
