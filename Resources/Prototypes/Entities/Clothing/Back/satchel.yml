@@ -169,3 +169,12 @@
       shader: unshaded
   - type: Storage
     capacity: 9999
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelNCWL
+  name: rugged satchel
+  description: A robust satchel for NCWL troopers.
+  components:
+    - type: Sprite
+      sprite: Clothing/Back/Satchels/ncwl.rsi

@@ -30,3 +30,19 @@
   icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: plasteel }
   color: "#696969" #Okay, this is epic
   price: 0.28 # 1-1 mix of plasma and steel.
+
+- type: material
+  id: ScrapSteel
+  stackEntity: ScrapMetal1
+  name: materials-scrapsteel
+  icon: { sprite: Objects/Materials/ore.rsi, state: scrapsteel }
+  color: "#696969"
+  price: 0.04
+
+- type: material
+  id: ScrapTitanium
+  stackEntity: ScrapTitanium1
+  name: materials-scraptitanium
+  icon: { sprite: Objects/Materials/ore.rsi, state: scraptitanium }
+  color: "#C0C0C0"
+  price: 0.12

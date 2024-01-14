@@ -25,7 +25,7 @@
   id: DoktorGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitHomeguardTurtleneckMedic
-    back: ClothingBackpackERTLeaderFilled
+    back: ClothingBackpackNCWLDoktorFilled
     shoes: ClothingShoesBootsJack
     head: ClothingHeadHatLeagueMedical
     outerClothing:  ClothingOuterCoatLeagueMedic
@@ -33,3 +33,5 @@
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltParamedicFilled
     gloves: ClothingHandsGlovesFingerless
+  duffelbag: ClothingBackpackDuffelNCWLDoktorFilled
+  satchel: ClothingBackpackSatchelNCWLDoktorFilled

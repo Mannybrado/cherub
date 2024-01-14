@@ -1,0 +1,59 @@
+- type: entity
+  id: bluespacecomponentsalvage
+  parent: BaseItem
+  name: ruined HFCA triangulator
+  description: A precious relic from an Imperial vessel. Although useless in it's current state, it still bears relevant data regarding to HFCA jump drive units and bluespace. This is gonna fetch a pretty penny.
+  components:
+  - type: Sprite
+    sprite: Objects/Decoration/bluespacecomponentsalvage.rsi
+    layers:
+      - state: icon
+  - type: Item
+    size: 5
+  - type: StaticPrice
+    price: 5000
+
+- type: entity
+  id: moneysalvage20
+  parent: BaseItem
+  name: 20 dinarii bill
+  description: A historic relic. This Dinarii bill is ancient Empire legal tender. Some people still use these. Worth two hundred Sol credits today.
+  components:
+  - type: Sprite
+    sprite: Objects/Decoration/moneysalvage20.rsi
+    layers:
+      - state: icon
+  - type: Item
+    size: 5
+  - type: StaticPrice
+    price: 200
+
+- type: entity
+  id: moneysalvage50
+  parent: BaseItem
+  name: 50 dinarii bill
+  description: A historic relic. This Dinarii bill is ancient Empire legal tender. Some people still use these. Worth five hundred Sol credits today.
+  components:
+  - type: Sprite
+    sprite: Objects/Decoration/moneysalvage50.rsi
+    layers:
+      - state: icon
+  - type: Item
+    size: 5
+  - type: StaticPrice
+    price: 500
+
+- type: entity
+  id: moneysalvage100
+  parent: BaseItem
+  name: 100 dinarii bill
+  description: A historic relic. This Dinarii bill is ancient Empire legal tender. Some people still use these. Worth a thousand Sol credits today.
+  components:
+  - type: Sprite
+    sprite: Objects/Decoration/moneysalvage100.rsi
+    layers:
+      - state: icon
+  - type: Item
+    size: 5
+  - type: StaticPrice
+    price: 1000

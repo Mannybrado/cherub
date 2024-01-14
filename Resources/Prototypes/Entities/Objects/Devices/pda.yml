@@ -757,7 +757,7 @@
   description: Brown for communist.
   components:
   - type: Pda
-    id: ERTLeaderIDCard
+    id: KommissarIDCard
     state: pda-ert
   - type: PdaBorderColor
     borderColor: "#A32D26"
@@ -773,7 +773,7 @@
   description: Brown for communist.
   components:
   - type: Pda
-    id: ERTLeaderIDCard
+    id: SanitarIDCard
     state: pda-militiaman
   - type: PdaBorderColor
     borderColor: "#A32D26"
@@ -789,7 +789,39 @@
   description: Brown for communist.
   components:
   - type: Pda
-    id: ERTLeaderIDCard
+    id: DoktorIDCard
+    state: pda-militiaman
+  - type: PdaBorderColor
+    borderColor: "#A32D26"
+    accentHColor: "#447987"
+    accentVColor: "#447987"
+  - type: Icon
+    state: pda-militiaman
+
+- type: entity
+  parent: BasePDA
+  id: NCWLArtificerPDA
+  name: Artificer's PDA
+  description: Brown for communist.
+  components:
+  - type: Pda
+    id: ArtificerIDCard
+    state: pda-militiaman
+  - type: PdaBorderColor
+    borderColor: "#A32D26"
+    accentHColor: "#447987"
+    accentVColor: "#447987"
+  - type: Icon
+    state: pda-militiaman
+
+- type: entity
+  parent: BasePDA
+  id: NCWLCommsOfficerPDA
+  name: Communication Officer's PDA
+  description: Looks a bit chewed on.
+  components:
+  - type: Pda
+    id: CommsOfficerIDCard
     state: pda-militiaman
   - type: PdaBorderColor
     borderColor: "#A32D26"

@@ -244,3 +244,17 @@
     - type: ClothingSpeedModifier
       walkModifier: 1
       sprintModifier: 1
+
+- type: entity
+  parent: ClothingBackpackDuffel
+  id: ClothingBackpackDuffelNCWL
+  name: rugged duffel bag
+  description: A duffel back with a few pockets. Intended for NCWL troops.
+  components:
+    - type: Sprite
+      sprite: Clothing/Back/Duffels/ncwl.rsi
+    - type: Storage
+      capacity: 150
+    - type: ClothingSpeedModifier
+      walkModifier: 1
+      sprintModifier: 1

@@ -54,3 +54,19 @@
   spawn: BananiumOre1
   maxCount: 30
   itemSize: 2
+
+- type: stack
+  id: ScrapMetal
+  name: scrap metal
+  icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: scrapmetal }
+  spawn: ScrapMetal1
+  maxCount: 30
+  itemSize: 2
+
+- type: stack
+  id: ScrapTitanium
+  name: titanium scrap
+  icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: scraptitanium }
+  spawn: ScrapTitanium1
+  maxCount: 30
+  itemSize: 2

@@ -283,3 +283,42 @@
     contents:
       - id: BoxSurvival
       - id: RubberStampMime
+
+- type: entity
+  noSpawn: true
+  parent:  ClothingBackpackSatchelNCWL
+  id:  ClothingBackpackSatchelNCWLFilled
+  components:
+  - type: StorageFill
+    contents:
+        - id: BoxSurvival
+        - id: BoxZiptie
+        - id: MagazinePistol
+
+- type: entity
+  noSpawn: true
+  parent:  ClothingBackpackSatchelNCWL
+  id:  ClothingBackpackSatchelNCWLDoktorFilled
+  components:
+  - type: StorageFill
+    contents:
+        - id: BoxSurvival
+        - id: BoxZiptie
+        - id: MagazinePistol
+        - id: Hypospray
+        - id: MedkitAdvancedFilled
+
+- type: entity
+  noSpawn: true
+  parent:  ClothingBackpackSatchelNCWL
+  id:  ClothingBackpackSatchelNCWLArtificerFilled
+  components:
+  - type: StorageFill
+    contents:
+        - id: BoxSurvivalEngineering
+        - id: CableMVStack
+        - id: CableHVStack
+        - id: CableApcStack
+        - id: SheetPlasteel
+        - id: SheetSteel
+        - id: SheetGlass

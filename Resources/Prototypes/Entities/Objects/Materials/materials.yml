@@ -577,3 +577,113 @@
     count: 1
   - type: Item
     size: 1
+
+- type: entity
+  parent: MaterialBase
+  id: ScrapPlasma
+  name: scrap plasma fuel
+  suffix: Full
+  components:
+  - type: Stack
+    stackType: ScrapPlasma
+  - type: Sprite
+    state: scrapplasma
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      ScrapPlasma: 500
+
+- type: entity
+  parent: ScrapPlasma
+  id: ScrapPlasma1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+  - type: Item
+    size: 2
+
+- type: entity
+  parent: ScrapPlasma
+  id: ScrapPlasma5
+  suffix: Five
+  components:
+  - type: Stack
+    count: 5
+  - type: Item
+    size: 2
+
+- type: entity
+  parent: MaterialBase
+  id: ScrapElectronics
+  name: scrap electronics
+  suffix: Full
+  components:
+  - type: Stack
+    stackType: ScrapElectronics
+  - type: Sprite
+    state: scrapelectronics
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      ScrapElectronics: 500
+
+- type: entity
+  parent: ScrapElectronics
+  id: ScrapElectronics1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+  - type: Item
+    size: 2
+
+- type: entity
+  parent: MaterialBase
+  id: ScrapComponents
+  name: wrecked fuel port
+  suffix: Full
+  components:
+  - type: Stack
+    stackType: ScrapComponents
+  - type: Sprite
+    state: scrapcomponents
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      ScrapComponents: 500
+
+- type: entity
+  parent: ScrapComponents
+  id: ScrapComponents1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+  - type: Item
+    size: 2
+
+- type: entity
+  parent: MaterialBase
+  id: ScrapUranium
+  name: depleted uranium
+  suffix: Full
+  components:
+  - type: Stack
+    stackType: ScrapUranium
+  - type: Sprite
+    state: scrapuranium
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      ScrapUranium: 500
+
+- type: entity
+  parent: ScrapUranium
+  id: ScrapUranium1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+  - type: Item
+    size: 2

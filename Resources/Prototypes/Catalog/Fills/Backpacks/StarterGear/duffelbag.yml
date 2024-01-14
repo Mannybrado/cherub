@@ -261,3 +261,42 @@
     - type: StorageFill
       contents:
         - id: BoxSurvival
+
+- type: entity
+  noSpawn: true
+  parent: ClothingBackpackDuffelNCWL
+  id: ClothingBackpackDuffelNCWLFilled
+  components:
+    - type: StorageFill
+      contents:
+        - id: BoxSurvival
+        - id: BoxZiptie
+        - id: MagazinePistol
+
+- type: entity
+  noSpawn: true
+  parent: ClothingBackpackDuffelNCWL
+  id: ClothingBackpackDuffelNCWLDoktorFilled
+  components:
+    - type: StorageFill
+      contents:
+        - id: BoxSurvival
+        - id: BoxZiptie
+        - id: MagazinePistol
+        - id: Hypospray
+        - id: MedkitAdvancedFilled
+
+- type: entity
+  noSpawn: true
+  parent: ClothingBackpackDuffelNCWL
+  id: ClothingBackpackDuffelNCWLArtificerFilled
+  components:
+    - type: StorageFill
+      contents:
+        - id: BoxSurvivalEngineering
+        - id: CableMVStack
+        - id: CableHVStack
+        - id: CableApcStack
+        - id: SheetPlasteel
+        - id: SheetSteel
+        - id: SheetGlass

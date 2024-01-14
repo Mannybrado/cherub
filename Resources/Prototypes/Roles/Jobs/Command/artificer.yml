@@ -1,0 +1,36 @@
+- type: job
+  id: Artificer
+  name: job-name-homeguard-engineer
+  description: job-description-artificer
+  playTimeTracker: JobArtificer
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 800
+  startingGear: ArtificerGear
+  icon: "JobIconArtificer"
+  supervisors: job-supervisors-hop
+  canBeAntag: false
+  access:
+  - Command
+  - Maintenance
+  - Service
+  - External
+  - Mercenary # Frontier
+  - Captain # Frontier
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant, TrackingImplant ]
+
+- type: startingGear
+  id: ArtificerGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitHomeguardTurtleneckEngi
+    back: ClothingBackpackNCWLArtificerFilled
+    shoes: ClothingShoesBootsJack
+    head: ClothingHeadLeagueBeret
+    id: NCWLArtificerPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: ClothingBeltUtilityEngineering
+    gloves: ClothingHandsGlovesFingerless
+  duffelbag: ClothingBackpackDuffelNCWLArtificerFilled
+  satchel: ClothingBackpackSatchelNCWLArtificerFilled

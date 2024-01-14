@@ -51,6 +51,8 @@ job-name-senior-officer = Sergeant
 job-name-homeguard-leader = Kommissar
 job-name-homeguard-soldier = Sanitar
 job-name-homeguard-medic = Doktor
+job-name-homeguard-engineer = Artificer
+job-name-homeguard-comms = Communications Officer
 
 # Role timers - Make these alphabetical or I cut you
 JobAtmosphericTechnician = Atmospheric Technician
@@ -104,5 +106,6 @@ JobTechnicalAssistant = Technical Assistant
 JobWarden = Bailiff
 JobZookeeper = Zookeeper
 JobKommissar = Kommissar
+JobDoktor = Doktor
 JobSanitar = Sanitar
 JobHomeguardMedic = Doktor
